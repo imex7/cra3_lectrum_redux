@@ -1,0 +1,38 @@
+.slider_wrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-top: 80px;
+}
+
+.slider {
+	padding: 10px;
+	background-color: rgb(107, 101, 101);
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.slider img {
+	display: block;
+	width: 400px;
+	height: 400px;
+}
+
+.controllers {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 10px;
+}
+
+.controllers button {
+	font-size: 1.3em;
+}
+
+.item_button_selected {
+	background-color: rgb(185, 51, 51);
+}
